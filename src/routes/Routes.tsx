@@ -1,12 +1,19 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import {Home} from "../views/home/Home";
+import { Dashboard, Home, Login } from '@/views'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <Home/>
+		element: <Home />,
 	},
-
+	{
+		path: '/login',
+		element: <Login />,
+	},
+	{
+		path: '/dashboard',
+		element: <Dashboard />,
+	},
 ])
 
 const myRoutes = () => <RouterProvider router={router} />

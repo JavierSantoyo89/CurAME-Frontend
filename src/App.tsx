@@ -1,11 +1,8 @@
-import  Routes  from './routes/Routes'
+import Routes from './routes/Routes'
 import './App.css'
 
 function App(): JSX.Element {
-
-  return (
-    <Routes/>
-  )
+	return <Routes />
 }
 
 export default App
