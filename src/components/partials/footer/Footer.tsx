@@ -1,7 +1,10 @@
-export const Footer: React.FC = (): JSX.Element => {
+import type { JSX } from 'react/jsx-runtime'
+import './Footer.module.css'
+const Footer: React.FC = (): JSX.Element => {
 	return (
 		<footer>
-			<h1>Footer</h1>
+			<p>CurAME Mexico 2025</p>
 		</footer>
 	)
 }
+export default Footer

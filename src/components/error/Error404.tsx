@@ -1,3 +1,5 @@
+import type { JSX } from 'react/jsx-runtime'
+
 export const Error404: React.FC = (): JSX.Element => {
 	return (
 		<>
